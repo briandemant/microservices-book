@@ -1,13 +1,13 @@
-# Summaries are useful, right?
+# Summary
 
-## something
+## Introduction
 
+* [What is this?](README.md)
 * [First Chapter](Chapter_01.md)
 * [Second Chapter](Chapter_02.md)
-* [The Readme](README.md)
-
 
 ## Misc.
 
 * [About Us](AboutUs.md)
 * [The Glossary](Glossary.md)
+
