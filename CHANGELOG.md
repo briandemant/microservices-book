@@ -3,4 +3,4 @@
 ### 16 Nov - The Beginning
 
 * Created this git book
-* Started the Glossary
+* Started the [The Glossary](Glossary.md)
