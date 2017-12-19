@@ -1,6 +1,13 @@
 # Random Topics.
 
-This section is my scratch pad where I throw in topics and ideas that I have yet to have a place in the scructure or just want to remember to write about.
+This section is my scratch pad where I throw in topics and ideas that I have yet to have a place in the structure or just want to remember to write about.
+
+## Projects to look into
+
+## proxies
+https://www.envoyproxy.io/ <- supports grpc
+https://istio.io <- service mesh for K8S
+
 
 ## Topics to cover (todo)
 
@@ -112,5 +119,16 @@ This section is my scratch pad where I throw in topics and ideas that I have yet
 	* What needs to be clear before this can happen?
 	* Who maintains the code?
 
+* Auth+
+	* Roles vs Resource
+	* JWT 
+	* SSO
+
+* Configurability
+	* Feature flag
+	* A/B testing
+
 * Workflow
 	* ....
+
+[qwe](qwe.md)

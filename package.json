@@ -1,0 +1,33 @@
+{
+	"name": "microservices",
+	"version": "1.0.0",
+	"description": "Here at [Gul og Gratis](AboutUs.md) we have started to transition away from a legacy \\(read spaghetti\\) monolith to a more modern and more agile set of microservices.",
+	"main": "index.js",
+	"scripts": {
+		"start": "gitbook serve",
+		"slides": "browser-sync start -s ./slides/ --no-open -f slides/ --no-ui",
+		"slides:sass": "nodemon -V -w slides/css/theme -e 'scss' --exec 'sass slides/css/theme/source/guloggratis.scss > slides/css/theme/guloggratis.css'",
+		"slides:dev": "concurrently \"npm run slides:sass\" \"npm run slides\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://git.gitbook.com/briandemant/microservices.git"
+	},
+	"keywords": [
+		"book",
+		"microservices"
+	],
+	"author": "Brian Demant <brian.demant@gmail.com>",
+	"license": "Apache-2.0",
+	"devDependencies": {
+		"browser-sync": "^2.18.13",
+		"concurrent": "^0.3.2",
+		"concurrently": "^3.5.1",
+		"nodeman": "^1.1.2",
+		"sass": "^1.0.0-beta.3"
+	},
+	"dependencies": {
+		"gitbook": "^3.2.3",
+		"gitbook-cli": "^2.3.2"
+	}
+}
